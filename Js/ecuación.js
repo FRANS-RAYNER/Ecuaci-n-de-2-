@@ -15,7 +15,7 @@ function muestraFecha(){
   }
   document.getElementById("hora").innerHTML= muestraHora();
   
-  function borrar() {
+  function borrar(){
   document.getElementById("formulario").reset();
   }
   
