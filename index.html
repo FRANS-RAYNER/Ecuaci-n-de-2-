@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resolviendo Ecuaciones de 2°</title>
+	<style>
+		.contenedor{
+			background-color: rosybrown;
+			width: 50%;
+			height: 70vh; /*viuhay reduce al tamaño de pantalla */
+			margin: auto;
+			padding: 50px;
+		}
+		
+	</style>
+</head>
+<body bgcolor="#49BFFA">
+	<div class="contenedor">
+		<div id="principal">
+			<center><h1>WebMat</h1></center>
+			<b><p>Fecha: <span style="color:#8509fa" id="fecha"></span></p></b><hr>
+			<h2>Ecuación de segundo grado:</h2>
+			<b> ax&#178;+bx+c=0
+			<br><br>
+			a: <input type="text" id="dato1" placeholder="    Ingresa dato 1">
+			   <button onclick="limpiar();"><b>Limpiar</b></button><br><br>
+        	b: <input type="text" id="dato2" placeholder="    Ingrese dato 2"><br><br>
+			c: <input type="text" id="dato3" placeholder="    Ingrese dato 3"><br><br></b>
+			<button onclick="calcular();"><b>Calcular</b></button><br><br>
+			<b><p style="color:blue;">X&#185; : <i style="color:red;"><span id="respuesta1"></span></i></p>
+			<b><p style="color:blue;">X&#178; : <i style="color:red;"><span id="respuesta2"></span></i></p>
+
+		</div>
+	</div>
+	<br><br>
+	<h2 align="right"><span id="hora"></span></h2> 
+
+    <script src="js/ecuación.js"></script>
+</body>
+</html>
